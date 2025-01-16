@@ -39,7 +39,7 @@ export function DesignPrompt({ onSubmit }: DesignPromptProps) {
                 onChange={(e) => setPrompt(e.target.value)}
                 onFocus={() => setIsFocused(true)}
                 onBlur={() => setIsFocused(false)}
-                placeholder={isFocused ? "Type your design idea here..." : ""}
+                placeholder={isFocused ? "Enter your design idea here..." : ""}
                 className="w-full px-4 py-3 text-gray-700 bg-gray-50/50 rounded-xl border border-gray-200 focus:ring-2 focus:ring-purple-500 focus:outline-none placeholder-gray-400"
                 maxLength={200}
               />
