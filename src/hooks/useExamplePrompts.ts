@@ -27,7 +27,7 @@ export function useExamplePrompts() {
   }, [currentIndex]);
 
   return {
-    currentExample: isComplete ? "Enter your design idea..." : EXAMPLE_PROMPTS[currentIndex],
+    currentExample: isComplete ? "Enter your design idea here..." : EXAMPLE_PROMPTS[currentIndex],
     onComplete: handleComplete,
     isComplete
   };
