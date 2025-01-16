@@ -36,7 +36,7 @@ export function UserInfoForm({ onSubmit }: UserInfoFormProps) {
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:outline-none"
-              placeholder="Your name"
+              placeholder="First name"
               required
             />
           </div>
