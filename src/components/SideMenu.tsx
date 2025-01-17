@@ -52,15 +52,15 @@ export function SideMenu() {
           ${isOpen ? 'translate-x-0' : '-translate-x-full'}
         `}
       >
-        <nav className="p-6">
-          <ul className="space-y-3">
+        <nav className="p-4">
+          <ul className="space-y-1">
             {MENU_ITEMS.map((item) => (
               <li key={item.label}>
                 <a
                   href={item.href}
                   onClick={closeMenu}
                   className={`
-                    block px-4 py-3 rounded-lg transition-all
+                    block px-4 py-2 rounded-lg transition-all
                     ${item.primary 
                       ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:from-purple-700 hover:to-blue-700 flex items-center justify-between group shadow-md' 
                       : 'text-gray-700 hover:bg-gray-50'
