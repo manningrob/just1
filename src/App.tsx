@@ -30,7 +30,7 @@ export default function App() {
             Dream it. Wear it.
           </h2>
           <p className="text-xl text-gray-800 mb-8">
-            Experience the future of fashion—where your creativity is exclusively yours. No copies. No compromises. Just One. 
+            Experience the future of self-expression, where your creativity is exclusively yours. No copies. No compromises. Just One. 
           </p>
 
           {step === 'pending' && <DesignPrompt onSubmit={handleDesignSubmit} />}
